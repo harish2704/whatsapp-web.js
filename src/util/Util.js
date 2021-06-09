@@ -1,6 +1,5 @@
 'use strict';
 
-const sharp = require('sharp');
 const path = require('path');
 const Crypto = require('crypto');
 const { tmpdir } = require('os');
@@ -45,6 +44,7 @@ class Util {
      * @returns {Promise<MessageMedia>} media in webp format
      */
     static async formatImageToWebpSticker(media) {
+				const sharp = require('sharp');
         if (!media.mimetype.includes('image'))
             throw new Error('media is not a image');
       
