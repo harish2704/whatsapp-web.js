@@ -34,7 +34,7 @@
     "mime": "^2.4.5",
     "node-webpmux": "^3.0.0",
     "puppeteer": "*",
-    "sharp": "^0.28.3"
+    "sharp": "^0.31.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
